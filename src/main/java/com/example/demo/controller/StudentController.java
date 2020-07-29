@@ -25,6 +25,7 @@ public class StudentController {
 
 	@PostMapping("/createStudent")
 	public Student createStudent(@RequestBody Student student) {
+		System.out.println("Testing Build");
 		studentService.saveStudent(student);
 		System.out.println("saved successfully");
 		return student;
