@@ -1,0 +1,8 @@
+com\example\demo\interfaces\StudentService.class
+com\example\demo\repository\StudentRepository.class
+com\example\demo\interfaces\impl\StudentServiceImpl.class
+com\example\demo\model\Student.class
+com\example\demo\configuration\SwaggerConfiguration.class
+com\example\demo\SpringBootDemoApplication.class
+com\example\demo\starter\HelloWorld.class
+com\example\demo\controller\StudentController.class
