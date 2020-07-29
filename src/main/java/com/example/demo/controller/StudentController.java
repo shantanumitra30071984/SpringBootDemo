@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.demo.interfaces.StudentService;
 import com.example.demo.model.Student;
 
+import ch.qos.logback.core.net.SyslogOutputStream;
+
 @RestController
 @RequestMapping("/student")
 public class StudentController {
@@ -18,7 +20,7 @@ public class StudentController {
 
 	@GetMapping("/sayHello")
 	public String sayHello() {
-
+       System.out.println("Test");
 		return "Hello";
 
 	}
